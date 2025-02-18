@@ -12,19 +12,19 @@ En relación con XML, una de las principales ventajas que preenta JSON es que re
 ## **SINTAXIS**
 La sintaxis de JSON se compone de diferentes tipos de datos. Entre ellos:
 
-Números: Se permiten números negativos y los númeors pueden contener decimales separados por puntos.
+* Números: Se permiten números negativos y los númeors pueden contener decimales separados por puntos.
 
-Cadenas: Representan secuencias de cero o más caracteres. Se deben poner entre doble comilla.
+* Cadenas: Representan secuencias de cero o más caracteres. Se deben poner entre doble comilla.
 
-Booleanos: Representan valores booleanos y pueden tener dos valores: true y false
+* Booleanos: Representan valores booleanos y pueden tener dos valores: true y false
 
-Null: Representan el valor nulo.
+* Null: Representan el valor nulo.
 
-Array: Representa una lista ordenada de cero o más valores los cuales pueden ser de cualquier tipo. Los valores se deben separan por comas y el vector se mete entre corchetes.
+* Array: Representa una lista ordenada de cero o más valores los cuales pueden ser de cualquier tipo. Los valores se deben separan por comas y el vector se mete entre corchetes.
 
-Objetos: Son colecciones no ordenadas de pares de la forma <nombre>:<valor> separados por comas y puestas entre llaves. El nombre tiene que ser una cadena entre comillas dobles. El valor puede ser de cualquier tipo. 
+* Objetos: Son colecciones no ordenadas de pares de la forma <nombre>:<valor> separados por comas y puestas entre llaves. El nombre tiene que ser una cadena entre comillas dobles. El valor puede ser de cualquier tipo. 
 
-Ejemplo:
+**Ejemplo**:
 
 ```
 {"dueños":[
