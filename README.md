@@ -78,23 +78,23 @@ La sintaxis de YAML es sencilla. Fue diseñada teniendo en cuenta que fuera legi
 
 Algunas de las principales características de YAML son:
 
-Los contenidos en YAML se describen utilizando el conjunto de caracteres imprimibles de Unicode, bien en UTF-8 o UTF-16.
+* Los contenidos en YAML se describen utilizando el conjunto de caracteres imprimibles de Unicode, bien en UTF-8 o UTF-16.
 
-La estructura del documento se denota indentando con espacios en blanco; sin embargo no se permite el uso de caracteres de tabulación para sangrar.
+* La estructura del documento se denota indentando con espacios en blanco; sin embargo no se permite el uso de caracteres de tabulación para sangrar.
 
-Los miembros de las listas se denotan encabezados por un guion ( - ) con un miembro por cada línea, o bien entre corchetes ( [ ] ) y separados por coma espacio ( , ).
+* Los miembros de las listas se denotan encabezados por un guion ( - ) con un miembro por cada línea, o bien entre corchetes ( [ ] ) y separados por coma espacio ( , ).
 
-Los vectores asociativos se representan usando los dos puntos seguidos por un espacio. en la forma "clave: valor", bien uno por línea o entre llaves ( { } ) y separados por coma seguida de espacio ( , ).
+* Los vectores asociativos se representan usando los dos puntos seguidos por un espacio. en la forma "clave: valor", bien uno por línea o entre llaves ( { } ) y separados por coma seguida de espacio ( , ).
 
-Un valor de un vector asociativo viene precedido por un signo de interrogación ( ? ), lo que permite que se construyan claves complejas sin ambigüedad.
+* Un valor de un vector asociativo viene precedido por un signo de interrogación ( ? ), lo que permite que se construyan claves complejas sin ambigüedad.
 
-Los valores sencillos (o escalares) por lo general aparecen sin entrecomillar, pero pueden incluirse entre comillas dobles ( " ), o comillas simples ( ' ).
+* Los valores sencillos (o escalares) por lo general aparecen sin entrecomillar, pero pueden incluirse entre comillas dobles ( " ), o comillas simples ( ' ).
 
-En las comillas dobles, los caracteres especiales se pueden representar con secuencias de escape similares a las del lenguaje de programación C, que comienzan con una barra invertida ( \ ).
+* En las comillas dobles, los caracteres especiales se pueden representar con secuencias de escape similares a las del lenguaje de programación C, que comienzan con una barra invertida ( \ ).
 
-Se pueden incluir múltiples documentos dentro de un único flujo, separándolos por tres guiones (---); los tres puntos ( ...) indican el fin de un documento dentro de un flujo. Los nodos repetidos se pueden denotar con un ampersand ( & ) y ser referidos posteriormente usando el asterisco ( * ).
+* Se pueden incluir múltiples documentos dentro de un único flujo, separándolos por tres guiones (---); los tres puntos ( ...) indican el fin de un documento dentro de un flujo. Los nodos repetidos se pueden denotar con un ampersand ( & ) y ser referidos posteriormente usando el asterisco ( * ).
 
-Los comentarios vienen encabezados por la almohadilla ( # ) y continúan hasta el final de la línea.
+* Los comentarios vienen encabezados por la almohadilla ( # ) y continúan hasta el final de la línea.
 
 > [!NOTE]
 > Para más información consultar: [YAML] (https://es.wikipedia.org/wiki/YAML)
