@@ -1,15 +1,15 @@
 # Iris-LLDM-
 Repositori Llenguatge de Marques Iris
 
-#***JSON***
+# ***JSON***
 
-##**INTRODUCCIÓN**
+## **INTRODUCCIÓN**
 JSON (JavaScript Object Notation, 'notación de objeto de JavaScript') es un formato de texto utilizado para el intercambio de datos. Está compuesto por la notación literal de objetos de JavaScript, aunque se considera un formato independiente del lenguaje por ser una alternativa a XML.
 
-##**VENTAJAS DEL JSON**
+## **VENTAJAS DEL JSON**
 En relación con XML, una de las principales ventajas que preenta JSON es que resulta mucho más sencillo escribir un analizador sintáctico (parser) para él.​ Hay que tener en cuenta que en JavaScript, un texto JSON se puede analizar fácilmente usando la función eval(), algo que ha sido fundamental para que haya sido aceptado por parte de la comunidad de desarrolladores AJAX.2
 
-##**SINTAXIS**
+## **SINTAXIS**
 La sintaxis de JSON se compone de diferentes tipos de datos. Entre ellos:
 
 Números: Se permiten números negativos y los númeors pueden contener decimales separados por puntos.
@@ -47,7 +47,7 @@ Ejemplo:
 ```
 
 
-##**MODELOS DE PROCESAMIENTO**
+## **MODELOS DE PROCESAMIENTO**
 Debido al amplio uso de JSON, se han desarrollado APIs para diversos lenguajes de programación.Entre ellos podemos encontrar APIs creadas para: C, C++, C#, Delphi, Java, JavaScript, Python, etc.
 
 ##**COMPARACIÓN CON XML**
@@ -57,7 +57,7 @@ Con independencia de la comparación con XML, JSON puede ser muy compacto y efic
 
 Los entornos en el servidor normalmente requieren que se incorpore una función u objeto analizador de JSON. Algunos programadores, especialmente los familiarizados con el lenguaje C, encuentran JSON más natural que XML, pero otros desarrolladores encuentran su escueta notación algo confusa, especialmente cuando se trata de datos fuertemente jerarquizados o anidados muy profundamente.
 
-###*JSON Y YAML*
+### *JSON Y YAML*
 YAML es un superconjunto de JSON que trata de superar algunas de las limitaciones de este. Aunque es más complejo, todavía puede considerarse como ligero. El lenguaje de programación Ruby utiliza YAML como el formato de serialización por defecto. 
 
 [!NOTE]
